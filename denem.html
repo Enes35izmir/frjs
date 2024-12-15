@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Başlık</title>
+    <style>
+      .cbs{
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #FFDD00;
+        color: #999;
+        border-color: #FF0000;
+        }
+        .cbs:hover{
+          transform: scale(1.1, 1.1);
+          
+        }
+    </style>
+</head>
+<body>
+  i want <img alt="cheeseburger" style="width: 10vw; height: auto;" src="iwantcb.jpg">
+  <button class="cbs" onclick="ches()">give me cheeseburger!</button>
+</body>
+<script>
+  function ches(){
+    if (cc<3) {
+    const b = "here is your burger. 🍔";
+    let jas = document.createElement("div");
+    jas.innerHTML = b;
+    document.body.appendChild(jas);
+    ++cc}
+    else {
+      const h = "there is no burger left."
+      let lf = document.createElement("div")
+      lf.innerHTML = h
+      document.body.appendChild(lf)
+    }
+  }
+  let cc = 0
+</script>
+</html>
